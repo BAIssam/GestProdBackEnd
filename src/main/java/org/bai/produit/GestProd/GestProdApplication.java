@@ -24,7 +24,7 @@ public class GestProdApplication extends SpringBootServletInitializer {
 		return builder.sources(GestProdApplication.class);
 	}
 
-	// Launch the browser after running the app
+	// Launch the browser after running the application
 	@EventListener({ ApplicationReadyEvent.class })
 	private void applicationReadyEvent() {
 
